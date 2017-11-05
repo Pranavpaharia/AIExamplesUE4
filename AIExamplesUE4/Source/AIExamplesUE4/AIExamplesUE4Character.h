@@ -29,6 +29,12 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	/*AI State 
+	 Walk,Run, Follow, Touch, RunForFirst, Regenerate, Lost
+	*/
+
+
+
 protected:
 
 	/** Resets HMD orientation in VR. */
